@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/map"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:name="com.google.android.gms.maps.MapFragment">
+ 
+	 <LinearLayout
+	 android:id="@+id/linearLayout2"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 android:gravity="bottom"
+	 android:orientation="horizontal" >
+ 
+		<TextView
+		android:id="@+id/latLong"
+ 		android:layout_width="160dip"
+ 		android:layout_height="wrap_content"
+ 		android:layout_weight="0"
+ 		android:gravity="top"
+ 		android:hint="Lat, Lon"
+ 		android:scrollHorizontally="true" >
+ 		</TextView>
+ 		
+		<Button
+ 		android:id="@+id/follow"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:layout_marginLeft="5dp"
+ 		android:layout_marginRight="5dp"
+ 		android:layout_marginTop="15dp"
+ 		android:textSize="12sp"
+ 		android:text="follow"
+ 		android:textStyle="bold" />
+ 
+ 		<Button
+ 		android:id="@+id/retrack"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:layout_marginLeft="5dp"
+ 		android:layout_marginRight="5dp"
+ 		android:layout_marginTop="15dp"
+ 		android:textSize="12sp"
+ 		android:text="Retrack"
+ 		android:textStyle="bold" />
+ 	</LinearLayout>
+ 
+</fragment>
